@@ -1,0 +1,144 @@
+:root {
+  --earth-brown: #6B4F3F;
+  --earth-sand: #D8CFC4;
+  --earth-olive: #83a17c;
+  --earth-moss: #5f735b;
+  --earth-cream: #F4EFEA;
+  --earth-text: #5A5A5A;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Prompt", sans-serif;
+  background-color: var(--earth-cream) !important;
+  color: var(--earth-text) !important;
+  line-height: 1.7;
+}
+
+.main-container {
+  max-width: 1140px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.page-section {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.page-section-narrow {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-hero-img {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.navbar-brand {
+  color: var(--earth-brown) !important;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: var(--earth-text) !important;
+}
+
+.nav-link:hover {
+  color: var(--earth-olive) !important;
+}
+
+.btn-primary {
+  background-color: var(--earth-olive) !important;
+  border-color: var(--earth-olive) !important;
+}
+
+.btn-outline-primary {
+  color: var(--earth-olive) !important;
+  border-color: var(--earth-moss) !important;
+}
+
+.card {
+  border-radius: 14px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  border: none;
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-title {
+  color: var(--earth-brown);
+}
+
+.contact-aside {
+  margin-top: 90px;
+}
+
+.contact-aside {
+  margin-top: 72px; /* ปรับเลขนี้เล็กน้อยได้ */
+}
+
+@media (min-width: 992px) {
+  .contact-aside {
+    position: sticky;
+    top: 120px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--earth-brown);
+}
+
+.indent {
+  text-indent: 4em;
+}
+
+footer {
+  background-color: #fff;
+  padding: 16px 0;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.btn:focus,
+.btn:active,
+.btn:focus-visible,
+a.btn:focus,
+a.btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: var(--earth-olive) !important;
+  border-color: var(--earth-olive) !important;
+}
+
+.btn-outline-primary:active,
+.btn-outline-primary:focus {
+  background-color: var(--earth-olive) !important;
+  color: #fff !important;
+  border-color: var(--earth-olive) !important;
+}
+
+a:active {
+  color: inherit;
+}
