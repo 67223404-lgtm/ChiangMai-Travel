@@ -107,7 +107,7 @@ h5 {
 }
 
 .indent {
-  text-indent: 4em;
+  text-indent: 2em;
 }
 
 footer {
@@ -141,4 +141,5 @@ a.btn:active {
 
 a:active {
   color: inherit;
+
 }
